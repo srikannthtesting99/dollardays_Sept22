@@ -1,0 +1,4584 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ExtentReports</title>
+        <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+        <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+	    <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/spark/css/spark-style.css" rel="stylesheet" />
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style type="text/css">
+
+</style></head>    <script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="spa -report standard">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+<div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">Dollar Days Report</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">Sep 21, 2020 09:15:25 PM</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div><div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown" onclick="toggleView('test-view')">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>            <div class="page-container">
+                <div class="main-content">
+<div class="test-wrapper row test-view">
+	<div class="test-list">
+		<div class="test-list-tools">
+			<ul class="tools pull-left">
+				<li>
+					<a href="">
+					<span class="font-size-14">Tests</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="tools text-right">
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<i class="fa fa-exclamation-circle"></i>
+					</a>
+					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+						<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
+						<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>
+						
+						
+						
+						
+						<div class="dropdown-divider"></div>
+						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="test-list-wrapper scrollable">
+			<ul class="test-list-item">
+				<li class="test-item"  status="pass" test-id="1"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SearchWithInvalidDta</p>
+							<p class="duration text-sm">0h 0m 43s+168ms</p>
+							<span class="datetime">21:15:25 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SearchWithInvalidDta</h5>
+									<span class='badge badge-success'>09.21.2020 21:15:25</span>
+									<span class='badge badge-danger'>09.21.2020 21:16:09</span>
+									<span class='badge badge-default'>0h 0m 43s+168ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:15:25 PM</td>
+				<td>
+						Testcase : Verify Search functionality with Invalid data
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:15:26 PM</td>
+				<td>
+						Step 1  : Login with Valid credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:15:55 PM</td>
+				<td>
+						Step 2  : Successfully entered search value in the search bar
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:16:03 PM</td>
+				<td>
+						Step 3  : clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:16:04 PM</td>
+				<td>
+						Step 4  : Should display 'No Results Found
+for "djhksjdh"'
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:16:08 PM</td>
+				<td>
+						Step 5  : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:16:09 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="2"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SearchWithProductname</p>
+							<p class="duration text-sm">0h 0m 19s+660ms</p>
+							<span class="datetime">21:16:30 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SearchWithProductname</h5>
+									<span class='badge badge-success'>09.21.2020 21:16:30</span>
+									<span class='badge badge-danger'>09.21.2020 21:16:49</span>
+									<span class='badge badge-default'>0h 0m 19s+660ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:16:30 PM</td>
+				<td>
+						Testcase: TC1-----Valid ProductName
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:16:37 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:16:38 PM</td>
+				<td>
+						Step 2: Deafaul Search Bar Text displayed is:: Search for items in bulk
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:16:38 PM</td>
+				<td>
+						Step 3: The Product name entered in search is : Backpack
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:16:40 PM</td>
+				<td>
+						Step 4: Successfully Autosuggestionbox displayed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:16:43 PM</td>
+				<td>
+						Step 5 : clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:16:44 PM</td>
+				<td>
+						INFO:Total Number of items displayed are: 533
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:16:49 PM</td>
+				<td>
+						Step 6: Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:16:49 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="3"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SearchWithProductname</p>
+							<p class="duration text-sm">0h 0m 17s+622ms</p>
+							<span class="datetime">21:17:06 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SearchWithProductname</h5>
+									<span class='badge badge-success'>09.21.2020 21:17:06</span>
+									<span class='badge badge-danger'>09.21.2020 21:17:24</span>
+									<span class='badge badge-default'>0h 0m 17s+622ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:06 PM</td>
+				<td>
+						Testcase: TC2-----ValidProductname with Case Sensitive
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:14 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:15 PM</td>
+				<td>
+						Step 2: Deafaul Search Bar Text displayed is:: Search for items in bulk
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:15 PM</td>
+				<td>
+						Step 3: The Product name entered in search is : FoOd
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:16 PM</td>
+				<td>
+						Step 4: Successfully Autosuggestionbox displayed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:20 PM</td>
+				<td>
+						Step 5 : clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:20 PM</td>
+				<td>
+						INFO:Total Number of items displayed are: 195
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:24 PM</td>
+				<td>
+						Step 6: Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:24 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="4"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SearchWithProductname</p>
+							<p class="duration text-sm">0h 0m 16s+527ms</p>
+							<span class="datetime">21:17:40 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SearchWithProductname</h5>
+									<span class='badge badge-success'>09.21.2020 21:17:40</span>
+									<span class='badge badge-danger'>09.21.2020 21:17:57</span>
+									<span class='badge badge-default'>0h 0m 16s+527ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:40 PM</td>
+				<td>
+						Testcase: TC3-----Valid Product Name with Numerals
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:48 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:49 PM</td>
+				<td>
+						Step 2: Deafaul Search Bar Text displayed is:: Search for items in bulk
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:49 PM</td>
+				<td>
+						Step 3: The Product name entered in search is : 15"Backpack
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:50 PM</td>
+				<td>
+						Step 4: Successfully Autosuggestionbox displayed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:52 PM</td>
+				<td>
+						Step 5 : clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:53 PM</td>
+				<td>
+						INFO:Total Number of items displayed are: 271
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:57 PM</td>
+				<td>
+						Step 6: Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:17:57 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="5"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SearchWithProductname</p>
+							<p class="duration text-sm">0h 0m 15s+699ms</p>
+							<span class="datetime">21:18:10 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SearchWithProductname</h5>
+									<span class='badge badge-success'>09.21.2020 21:18:10</span>
+									<span class='badge badge-danger'>09.21.2020 21:18:26</span>
+									<span class='badge badge-default'>0h 0m 15s+699ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:18:10 PM</td>
+				<td>
+						Testcase: TC4-----Valid Product Name with Special Characters
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:18:17 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:18:18 PM</td>
+				<td>
+						Step 2: Deafaul Search Bar Text displayed is:: Search for items in bulk
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:18:18 PM</td>
+				<td>
+						Step 3: The Product name entered in search is : Pac-it fresh
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:18:19 PM</td>
+				<td>
+						Step 4: Successfully Autosuggestionbox displayed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:18:22 PM</td>
+				<td>
+						Step 5 : clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:18:22 PM</td>
+				<td>
+						INFO:Total Number of items displayed are: 43
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:18:26 PM</td>
+				<td>
+						Step 6: Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:18:26 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="6"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SearchWithProductname</p>
+							<p class="duration text-sm">0h 0m 14s+366ms</p>
+							<span class="datetime">21:18:38 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SearchWithProductname</h5>
+									<span class='badge badge-success'>09.21.2020 21:18:38</span>
+									<span class='badge badge-danger'>09.21.2020 21:18:53</span>
+									<span class='badge badge-default'>0h 0m 14s+366ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:18:38 PM</td>
+				<td>
+						Testcase: TC5-----Valid ProductName with Valid SKU Number
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:18:45 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:18:46 PM</td>
+				<td>
+						Step 2: Deafaul Search Bar Text displayed is:: Search for items in bulk
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:18:46 PM</td>
+				<td>
+						Step 3: The Product name entered in search is : 2344396
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:18:47 PM</td>
+				<td>
+						Step 4: Successfully Autosuggestionbox displayed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:18:49 PM</td>
+				<td>
+						Step 5 : clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:18:50 PM</td>
+				<td>
+						INFO:Total Number of items displayed are: 1
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:18:53 PM</td>
+				<td>
+						Step 6: Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:18:53 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="7"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SearchWithProductname</p>
+							<p class="duration text-sm">0h 0m 16s+511ms</p>
+							<span class="datetime">21:19:09 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SearchWithProductname</h5>
+									<span class='badge badge-success'>09.21.2020 21:19:09</span>
+									<span class='badge badge-danger'>09.21.2020 21:19:25</span>
+									<span class='badge badge-default'>0h 0m 16s+511ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:19:09 PM</td>
+				<td>
+						Testcase: TC6-----Valid ProductName with WildCharacters
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:19:17 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:19:18 PM</td>
+				<td>
+						Step 2: Deafaul Search Bar Text displayed is:: Search for items in bulk
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:19:18 PM</td>
+				<td>
+						Step 3: The Product name entered in search is : Fo%
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:19:19 PM</td>
+				<td>
+						Step 4: Successfully Autosuggestionbox displayed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:19:22 PM</td>
+				<td>
+						Step 5 : clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:19:22 PM</td>
+				<td>
+						INFO:Total Number of items displayed are: 134
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:19:25 PM</td>
+				<td>
+						Step 6: Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:19:25 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="8"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SearchWithInvalidDta</p>
+							<p class="duration text-sm">0h 0m 5s+557ms</p>
+							<span class="datetime">21:19:42 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SearchWithInvalidDta</h5>
+									<span class='badge badge-success'>09.21.2020 21:19:42</span>
+									<span class='badge badge-danger'>09.21.2020 21:19:48</span>
+									<span class='badge badge-default'>0h 0m 5s+557ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:19:42 PM</td>
+				<td>
+						Testcase : Verify Search functionality with Invalid data
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:19:43 PM</td>
+				<td>
+						Step 1  : Successfully entered search value in the search bar
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:19:47 PM</td>
+				<td>
+						Step 2  : clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:19:47 PM</td>
+				<td>
+						Step 3  : Should display 'No Results Found
+for "djhksjdh"'
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:19:48 PM</td>
+				<td>
+						Step 5  : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:19:48 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="9"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SearchWithProductname</p>
+							<p class="duration text-sm">0h 0m 8s+641ms</p>
+							<span class="datetime">21:20:02 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SearchWithProductname</h5>
+									<span class='badge badge-success'>09.21.2020 21:20:02</span>
+									<span class='badge badge-danger'>09.21.2020 21:20:11</span>
+									<span class='badge badge-default'>0h 0m 8s+641ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:20:02 PM</td>
+				<td>
+						Testcase: TC1-----Valid ProductName
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:20:03 PM</td>
+				<td>
+						Step 1: Deafaul Search Bar Text displayed is:: Search for items in bulk
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:20:03 PM</td>
+				<td>
+						Step 2: The Product name entered in search is : Backpack
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:20:04 PM</td>
+				<td>
+						Step 3: Successfully Autosuggestionbox displayed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:20:10 PM</td>
+				<td>
+						Step 4 : clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:20:11 PM</td>
+				<td>
+						INFO:Total Number of items displayed are: 533
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:20:11 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="10"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SearchWithProductname</p>
+							<p class="duration text-sm">0h 0m 6s+743ms</p>
+							<span class="datetime">21:20:27 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SearchWithProductname</h5>
+									<span class='badge badge-success'>09.21.2020 21:20:27</span>
+									<span class='badge badge-danger'>09.21.2020 21:20:33</span>
+									<span class='badge badge-default'>0h 0m 6s+743ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:20:27 PM</td>
+				<td>
+						Testcase: TC2-----ValidProductname with Case Sensitive
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:20:28 PM</td>
+				<td>
+						Step 1: Deafaul Search Bar Text displayed is:: Search for items in bulk
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:20:28 PM</td>
+				<td>
+						Step 2: The Product name entered in search is : FoOd
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:20:30 PM</td>
+				<td>
+						Step 3: Successfully Autosuggestionbox displayed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:20:33 PM</td>
+				<td>
+						Step 4 : clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:20:33 PM</td>
+				<td>
+						INFO:Total Number of items displayed are: 195
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:20:33 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="11"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SearchWithProductname</p>
+							<p class="duration text-sm">0h 0m 5s+922ms</p>
+							<span class="datetime">21:20:50 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SearchWithProductname</h5>
+									<span class='badge badge-success'>09.21.2020 21:20:50</span>
+									<span class='badge badge-danger'>09.21.2020 21:20:56</span>
+									<span class='badge badge-default'>0h 0m 5s+922ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:20:50 PM</td>
+				<td>
+						Testcase: TC3-----Valid Product Name with Numerals
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:20:51 PM</td>
+				<td>
+						Step 1: Deafaul Search Bar Text displayed is:: Search for items in bulk
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:20:51 PM</td>
+				<td>
+						Step 2: The Product name entered in search is : 15"Backpack
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:20:52 PM</td>
+				<td>
+						Step 3: Successfully Autosuggestionbox displayed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:20:55 PM</td>
+				<td>
+						Step 4 : clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:20:56 PM</td>
+				<td>
+						INFO:Total Number of items displayed are: 271
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:20:56 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="12"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SearchWithProductname</p>
+							<p class="duration text-sm">0h 0m 7s+38ms</p>
+							<span class="datetime">21:21:11 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SearchWithProductname</h5>
+									<span class='badge badge-success'>09.21.2020 21:21:11</span>
+									<span class='badge badge-danger'>09.21.2020 21:21:18</span>
+									<span class='badge badge-default'>0h 0m 7s+38ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:21:11 PM</td>
+				<td>
+						Testcase: TC4-----Valid Product Name with Special Characters
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:21:12 PM</td>
+				<td>
+						Step 1: Deafaul Search Bar Text displayed is:: Search for items in bulk
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:21:13 PM</td>
+				<td>
+						Step 2: The Product name entered in search is : Pac-it fresh
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:21:13 PM</td>
+				<td>
+						Step 3: Successfully Autosuggestionbox displayed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:21:17 PM</td>
+				<td>
+						Step 4 : clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:21:18 PM</td>
+				<td>
+						INFO:Total Number of items displayed are: 43
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:21:18 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="13"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SearchWithProductname</p>
+							<p class="duration text-sm">0h 0m 5s+33ms</p>
+							<span class="datetime">21:21:34 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SearchWithProductname</h5>
+									<span class='badge badge-success'>09.21.2020 21:21:34</span>
+									<span class='badge badge-danger'>09.21.2020 21:21:39</span>
+									<span class='badge badge-default'>0h 0m 5s+33ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:21:34 PM</td>
+				<td>
+						Testcase: TC5-----Valid ProductName with Valid SKU Number
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:21:35 PM</td>
+				<td>
+						Step 1: Deafaul Search Bar Text displayed is:: Search for items in bulk
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:21:36 PM</td>
+				<td>
+						Step 2: The Product name entered in search is : 2344396
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:21:37 PM</td>
+				<td>
+						Step 3: Successfully Autosuggestionbox displayed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:21:39 PM</td>
+				<td>
+						Step 4 : clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:21:39 PM</td>
+				<td>
+						INFO:Total Number of items displayed are: 1
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:21:39 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="14"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SearchWithProductname</p>
+							<p class="duration text-sm">0h 0m 5s+572ms</p>
+							<span class="datetime">21:21:55 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SearchWithProductname</h5>
+									<span class='badge badge-success'>09.21.2020 21:21:55</span>
+									<span class='badge badge-danger'>09.21.2020 21:22:01</span>
+									<span class='badge badge-default'>0h 0m 5s+572ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:21:55 PM</td>
+				<td>
+						Testcase: TC6-----Valid ProductName with WildCharacters
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:21:56 PM</td>
+				<td>
+						Step 1: Deafaul Search Bar Text displayed is:: Search for items in bulk
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:21:57 PM</td>
+				<td>
+						Step 2: The Product name entered in search is : Fo%
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:21:57 PM</td>
+				<td>
+						Step 3: Successfully Autosuggestionbox displayed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:22:00 PM</td>
+				<td>
+						Step 4 : clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:22:01 PM</td>
+				<td>
+						INFO:Total Number of items displayed are: 134
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:22:01 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="15"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 44s+198ms</p>
+							<span class="datetime">21:22:17 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:22:17</span>
+									<span class='badge badge-danger'>09.21.2020 21:23:01</span>
+									<span class='badge badge-default'>0h 0m 44s+198ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:22:17 PM</td>
+				<td>
+						Testcase: TC1-----SortBy with BestMatch option & View option 12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:22:23 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:22:25 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:22:27 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:22:29 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:22:35 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Best Match
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:22:37 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Best Match
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:22:42 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:22:44 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:22:50 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:22:50 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:23:01 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:23:01 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="16"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 46s+168ms</p>
+							<span class="datetime">21:23:21 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:23:21</span>
+									<span class='badge badge-danger'>09.21.2020 21:24:07</span>
+									<span class='badge badge-default'>0h 0m 46s+168ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:23:21 PM</td>
+				<td>
+						Testcase: TC2-----SortBy with Best Match option & View option 24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:23:28 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:23:29 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:23:32 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:23:34 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:23:40 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Best Match
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:23:42 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Best Match
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:23:47 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:23:47 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:23:53 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:23:53 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:24:07 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:24:07 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="17"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 43s+912ms</p>
+							<span class="datetime">21:24:25 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:24:25</span>
+									<span class='badge badge-danger'>09.21.2020 21:25:09</span>
+									<span class='badge badge-default'>0h 0m 43s+912ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:24:25 PM</td>
+				<td>
+						Testcase: TC3-----SortBy with Best Match option & View option 48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:24:31 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:24:32 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:24:35 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:24:37 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:24:43 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Best Match
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:24:45 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Best Match
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:24:50 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:24:53 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:24:58 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:24:58 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:25:09 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:25:09 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="18"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 43s+936ms</p>
+							<span class="datetime">21:25:24 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:25:24</span>
+									<span class='badge badge-danger'>09.21.2020 21:26:08</span>
+									<span class='badge badge-default'>0h 0m 43s+936ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:25:24 PM</td>
+				<td>
+						Testcase: TC4-----SortBy with Popularity option & View option 12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:25:31 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:25:32 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:25:35 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:25:37 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:25:45 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Popularity
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:25:47 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Popularity
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:25:53 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:25:55 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:26:00 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:26:00 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:26:08 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:26:08 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="19"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 42s+462ms</p>
+							<span class="datetime">21:26:25 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:26:25</span>
+									<span class='badge badge-danger'>09.21.2020 21:27:07</span>
+									<span class='badge badge-default'>0h 0m 42s+462ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:26:25 PM</td>
+				<td>
+						Testcase: TC5-----SortBy with Popularity option & View option 24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:26:32 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:26:33 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:26:36 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:26:38 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:26:45 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Popularity
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:26:47 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Popularity
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:26:53 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:26:53 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:26:58 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:26:58 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:27:07 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:27:07 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="20"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 46s+425ms</p>
+							<span class="datetime">21:27:21 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:27:21</span>
+									<span class='badge badge-danger'>09.21.2020 21:28:07</span>
+									<span class='badge badge-default'>0h 0m 46s+425ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:27:21 PM</td>
+				<td>
+						Testcase: TC6-----SortBy with Popularity option & View option 48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:27:28 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:27:29 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:27:32 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:27:34 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:27:42 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Popularity
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:27:44 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Popularity
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:27:49 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:27:52 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:27:59 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:27:59 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:28:07 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:28:07 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="21"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 44s+289ms</p>
+							<span class="datetime">21:28:23 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:28:23</span>
+									<span class='badge badge-danger'>09.21.2020 21:29:08</span>
+									<span class='badge badge-default'>0h 0m 44s+289ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:28:23 PM</td>
+				<td>
+						Testcase: TC7-----SortBy with NewestFirst option & View option 12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:28:30 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:28:31 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:28:34 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:28:36 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:28:43 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Newest First
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:28:46 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Newest First
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:28:51 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:28:53 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:28:59 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:28:59 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:29:08 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:29:08 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="22"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 42s+526ms</p>
+							<span class="datetime">21:29:24 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:29:24</span>
+									<span class='badge badge-danger'>09.21.2020 21:30:07</span>
+									<span class='badge badge-default'>0h 0m 42s+526ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:29:24 PM</td>
+				<td>
+						Testcase: TC8-----SortBy with NewestFirst option & View option 24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:29:31 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:29:32 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:29:34 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:29:36 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:29:44 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Newest First
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:29:46 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Newest First
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:29:51 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:29:51 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:29:57 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:29:57 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:30:07 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:30:07 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="23"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 43s+916ms</p>
+							<span class="datetime">21:30:22 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:30:22</span>
+									<span class='badge badge-danger'>09.21.2020 21:31:06</span>
+									<span class='badge badge-default'>0h 0m 43s+916ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:30:22 PM</td>
+				<td>
+						Testcase: TC9-----SortBy with NewestFirst option & View option 48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:30:29 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:30:30 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:30:33 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:30:35 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:30:42 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Newest First
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:30:45 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Newest First
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:30:50 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:30:52 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:30:58 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:30:58 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:31:06 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:31:06 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="24"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 54s+780ms</p>
+							<span class="datetime">21:31:22 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:31:22</span>
+									<span class='badge badge-danger'>09.21.2020 21:32:17</span>
+									<span class='badge badge-default'>0h 0m 54s+780ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:31:22 PM</td>
+				<td>
+						Testcase: TC10-----SortBy with Price per Unit LtoH option & View option 12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:31:31 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:31:32 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:31:36 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:31:39 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:31:47 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Price per Unit (Low to high)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:31:49 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Price per Unit (Low to high)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:31:54 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:32:03 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:32:08 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:32:08 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:32:17 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:32:17 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="25"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 44s+676ms</p>
+							<span class="datetime">21:32:34 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:32:34</span>
+									<span class='badge badge-danger'>09.21.2020 21:33:19</span>
+									<span class='badge badge-default'>0h 0m 44s+676ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:32:34 PM</td>
+				<td>
+						Testcase: TC11-----SortBy with Price per Unit LtoH option & View option 24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:32:41 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:32:42 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:32:47 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:32:49 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:32:57 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Price per Unit (Low to high)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:32:59 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Price per Unit (Low to high)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:33:04 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:33:04 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:33:10 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:33:10 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:33:19 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:33:19 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="26"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 44s+383ms</p>
+							<span class="datetime">21:33:35 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:33:35</span>
+									<span class='badge badge-danger'>09.21.2020 21:34:19</span>
+									<span class='badge badge-default'>0h 0m 44s+383ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:33:35 PM</td>
+				<td>
+						Testcase: TC12-----SortBy with Price per Unit LtoH option & View option 48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:33:42 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:33:43 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:33:45 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:33:47 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:33:55 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Price per Unit (Low to high)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:33:57 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Price per Unit (Low to high)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:34:02 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:34:05 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:34:10 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:34:10 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:34:19 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:34:19 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="27"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 46s+789ms</p>
+							<span class="datetime">21:34:36 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:34:36</span>
+									<span class='badge badge-danger'>09.21.2020 21:35:22</span>
+									<span class='badge badge-default'>0h 0m 46s+789ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:34:36 PM</td>
+				<td>
+						Testcase: TC13-----SortBy with Price per Unit HtoL option & View option 12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:34:43 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:34:44 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:34:48 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:34:50 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:34:57 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Price per Unit (High to low)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:35:00 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Price per Unit (High to low)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:35:05 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:35:07 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:35:14 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:35:14 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:35:22 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:35:22 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="28"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 43s+911ms</p>
+							<span class="datetime">21:35:39 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:35:39</span>
+									<span class='badge badge-danger'>09.21.2020 21:36:23</span>
+									<span class='badge badge-default'>0h 0m 43s+911ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:35:39 PM</td>
+				<td>
+						Testcase: TC14-----SortBy with Price per Unit HtoL option & View option 24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:35:47 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:35:48 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:35:51 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:35:53 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:36:01 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Price per Unit (High to low)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:36:03 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Price per Unit (High to low)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:36:09 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:36:09 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:36:14 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:36:14 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:36:23 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:36:23 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="29"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 44s+739ms</p>
+							<span class="datetime">21:36:37 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:36:37</span>
+									<span class='badge badge-danger'>09.21.2020 21:37:22</span>
+									<span class='badge badge-default'>0h 0m 44s+739ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:36:37 PM</td>
+				<td>
+						Testcase: TC15-----SortBy with Price per Unit HtoL option & View option 48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:36:44 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:36:45 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:36:47 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:36:50 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:36:57 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Price per Unit (High to low)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:37:00 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Price per Unit (High to low)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:37:05 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:37:08 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:37:13 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:37:13 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:37:22 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:37:22 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="30"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 47s+186ms</p>
+							<span class="datetime">21:37:40 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:37:40</span>
+									<span class='badge badge-danger'>09.21.2020 21:38:27</span>
+									<span class='badge badge-default'>0h 0m 47s+186ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:37:40 PM</td>
+				<td>
+						Testcase: TC16-----SortBy with Alphabetically & View option 12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:37:47 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:37:48 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:37:51 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:37:53 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:38:01 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Alphabetically by Name
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:38:03 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Alphabetically by Name
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:38:08 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:38:12 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:38:19 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:38:19 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:38:27 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:38:27 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="31"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 42s+140ms</p>
+							<span class="datetime">21:38:44 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:38:44</span>
+									<span class='badge badge-danger'>09.21.2020 21:39:26</span>
+									<span class='badge badge-default'>0h 0m 42s+140ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:38:44 PM</td>
+				<td>
+						Testcase: TC17-----SortBy with Alphabetically & View option 24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:38:51 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:38:52 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:38:54 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:38:57 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:39:04 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Alphabetically by Name
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:39:07 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Alphabetically by Name
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:39:12 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:39:12 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:39:17 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:39:17 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:39:26 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:39:26 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="32"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 49s+347ms</p>
+							<span class="datetime">21:39:43 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:39:43</span>
+									<span class='badge badge-danger'>09.21.2020 21:40:33</span>
+									<span class='badge badge-default'>0h 0m 49s+347ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:39:43 PM</td>
+				<td>
+						Testcase: TC18-----SortBy with Alphabetically & View option 48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:39:52 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:39:54 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:39:57 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:39:59 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:40:07 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Alphabetically by Name
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:40:09 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Alphabetically by Name
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:40:15 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:40:17 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:40:24 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:40:24 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:40:33 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:40:33 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="33"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 49s+182ms</p>
+							<span class="datetime">21:40:50 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:40:50</span>
+									<span class='badge badge-danger'>09.21.2020 21:41:39</span>
+									<span class='badge badge-default'>0h 0m 49s+182ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:50 PM</td>
+				<td>
+						Testcase: TC19-----SortBy with CaseQuantity & View option 12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:40:56 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:40:58 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:41:00 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:41:03 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:41:10 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Case Quantity
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:41:13 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Case Quantity
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:41:18 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:41:21 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:41:27 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:41:27 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:41:39 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:41:39 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="34"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 41s+875ms</p>
+							<span class="datetime">21:41:56 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:41:56</span>
+									<span class='badge badge-danger'>09.21.2020 21:42:38</span>
+									<span class='badge badge-default'>0h 0m 41s+875ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:41:56 PM</td>
+				<td>
+						Testcase: TC20-----SortBy with CaseQuantity & View option 24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:42:03 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:42:04 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:42:07 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:42:09 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:42:16 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Case Quantity
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:42:19 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Case Quantity
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:42:24 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:42:24 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:42:29 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:42:29 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 24
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:42:38 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:42:38 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="35"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">SortBy_View</p>
+							<p class="duration text-sm">0h 0m 44s+981ms</p>
+							<span class="datetime">21:42:55 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">SortBy_View</h5>
+									<span class='badge badge-success'>09.21.2020 21:42:55</span>
+									<span class='badge badge-danger'>09.21.2020 21:43:40</span>
+									<span class='badge badge-default'>0h 0m 44s+981ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:42:55 PM</td>
+				<td>
+						Testcase: TC21-----SortBy with CaseQuantity & View option 48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:43:02 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:43:03 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar :Food
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:43:05 PM</td>
+				<td>
+						Step 3 : Successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:43:08 PM</td>
+				<td>
+						Step 4 : Successfully clicked on the SortBy dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:43:15 PM</td>
+				<td>
+						Step 5 : Successfully selected the dropdown Option :Case Quantity
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:43:17 PM</td>
+				<td>
+						Step 6 : Actual Option selected from SortBy dropdown is :Case Quantity
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:43:22 PM</td>
+				<td>
+						Step 7: Successfully clicked on the View dropdown button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:43:26 PM</td>
+				<td>
+						Step 8 : Successfully clicked on the ViewBy dropdown option:48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:43:31 PM</td>
+				<td>
+						Step 9 : Actual Option selected from SortBy dropdown is :48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:43:31 PM</td>
+				<td>
+						Step 10 : Total No.of items displayed in the first page are: 48
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:43:40 PM</td>
+				<td>
+						Step 11 : Clicked on LogOut
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:43:40 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="fail" test-id="36"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar fail-bg">
+						<i class="fa fa-times text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC1_Pagination</p>
+							<p class="duration text-sm">0h 1m 8s+236ms</p>
+							<span class="datetime">21:43:57 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-fail">TC1_Pagination</h5>
+									<span class='badge badge-success'>09.21.2020 21:43:57</span>
+									<span class='badge badge-danger'>09.21.2020 21:45:05</span>
+									<span class='badge badge-default'>0h 1m 8s+236ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:43:57 PM</td>
+				<td>
+						Testcase: TC1-----Verify if the correct no.of results are displayed (against category)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:44:04 PM</td>
+				<td>
+						Step 1: Successfully Logged in with valid Credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:44:05 PM</td>
+				<td>
+						Step 2: Successfully entered valid product name in the Search Bar
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:44:07 PM</td>
+				<td>
+						Step 3 : successfully clicked on the search button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:44:16 PM</td>
+				<td>
+						Page Number 1  contains 24 items
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:44:22 PM</td>
+				<td>
+						Page Number 2  contains 24 items
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:44:27 PM</td>
+				<td>
+						Page Number 3  contains 24 items
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:44:33 PM</td>
+				<td>
+						Page Number 4  contains 24 items
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:44:44 PM</td>
+				<td>
+						Page Number 5  contains 24 items
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:44:50 PM</td>
+				<td>
+						Page Number 6  contains 24 items
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:44:56 PM</td>
+				<td>
+						Page Number 7  contains 24 items
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:45:01 PM</td>
+				<td>
+						Page Number 8  contains 14 items
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:45:05 PM</td>
+				<td>
+						Step 4 : successfully clicked on the Page Hyperlinks Individually
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:45:05 PM</td>
+				<td>
+						INFO:Total Number of Search Results displayed against Category are :195
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>9:45:05 PM</td>
+				<td>
+						Test Failed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="test-content scrollable">
+		<div class="test-content-tools">
+			<ul>
+				<li>
+					<a class="back-to-test" href="javascript:void(0)">
+					<i class="fa fa-arrow-left"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="test-content-detail">
+			<div class="detail-body"></div>
+		</div>
+	</div>
+</div>                    <!-- dashboard -->
+<div class="container-fluid p-4 dashboard-view">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Tests</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='parent-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='97.222%'>
+						<b>35</b> tests passed
+						</small>
+					</div>
+					<div>
+						<small data-tooltip='2.778%'><b>1</b> tests failed, 
+						<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Log events</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='events-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='91.436%'><b>363</b> events passed</small></div>
+					<div>
+						<small data-tooltip='0.252%'><b>1</b> events failed, 
+						<b data-tooltip='8.312%'>33</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Tests</h6>
+							<h2 class="font-size-28 font-weight-light mt-3">36</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+							<span>97.22%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Start</h6>
+							<h4 class="font-weight-light mt-4">Sep 21, 2020 09:15:25 PM</h4>
+							<span class="text-semibold text-success font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-success opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Duration</h6>
+							<h4 class="font-weight-light mt-4">0h 29m 45s+211ms</h4>
+							<span class="text-semibold font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Timeline</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id="timeline" height="120"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Environment</h6>
+				</div>
+				<div class="table-overflow">
+					<table class="table table-sm">
+						<thead>
+							<tr class="bg-gray">
+								<th>Name</th>
+								<th>Value</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Tester</td>
+								<td>Tester Name</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	var statusGroup = {
+	    parentCount: 36,
+		passParent: 35,
+		failParent: 1,
+		fatalParent: 0,
+		errorParent: 0,
+		warningParent: 0,
+		skipParent: 0,
+		exceptionsParent: 1,
+		childCount: 0,
+		passChild: 0,
+		failChild: 0,
+		fatalChild: 0,
+		errorChild: 0,
+		warningChild: 0,
+		skipChild: 0,
+		infoChild: 0,
+		debugChild: 0,
+		exceptionsChild: 0,
+		grandChildCount: 0,
+		passGrandChild: 0,
+		failGrandChild: 0,
+		fatalGrandChild: 0,
+		errorGrandChild: 0,
+		warningGrandChild: 0,
+		skipGrandChild: 0,
+		infoGrandChild: 0,
+		debugGrandChild: 0,
+		exceptionsGrandChild: 0,
+		eventsCount: 397,
+		passEvents: 363,
+		failEvents: 1,
+		fatalEvents: 0,
+		errorEvents: 0,
+		warningEvents: 0,
+		skipEvents: 0,
+		infoEvents: 33,
+		debugEvents: 0,
+		exceptionsEvents: 0
+	};
+</script>
+<script>
+	var timeline = {
+	        "SearchWithInvalidDta":43.168,"SearchWithProductname":19.66,"SearchWithProductname":17.622,"SearchWithProductname":16.527,"SearchWithProductname":15.699,"SearchWithProductname":14.366,"SearchWithProductname":16.511,"SearchWithInvalidDta":5.557,"SearchWithProductname":8.641,"SearchWithProductname":6.743,"SearchWithProductname":5.922,"SearchWithProductname":7.038,"SearchWithProductname":5.033,"SearchWithProductname":5.572,"SortBy_View":44.198,"SortBy_View":46.168,"SortBy_View":43.912,"SortBy_View":43.936,"SortBy_View":42.462,"SortBy_View":46.425,"SortBy_View":44.289,"SortBy_View":42.526,"SortBy_View":43.916,"SortBy_View":54.78,"SortBy_View":44.676,"SortBy_View":44.383,"SortBy_View":46.789,"SortBy_View":43.911,"SortBy_View":44.739,"SortBy_View":47.186,"SortBy_View":42.14,"SortBy_View":49.347,"SortBy_View":49.182,"SortBy_View":41.875,"SortBy_View":44.981,"TC1_Pagination":68.236
+	};
+</script>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/spark/js/spark-script.js"></script>
+</body>
+</html>

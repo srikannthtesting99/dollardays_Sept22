@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.dollardays.listners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Dollar Days Test(failed)">
+    <classes>
+      <class name="com.dollardays.testcases.Team9_ProductDescriptionPageTestCases">
+        <methods>
+          <include name="TC_DD_PDP_LeftNavigation_Cases" invocation-numbers="6"/>
+          <include name="TC_DD_PDP_Quantity_Cases" invocation-numbers="1"/>
+          <include name="quit"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- com.dollardays.testcases.Team9_ProductDescriptionPageTestCases -->
+    </classes>
+  </test> <!-- Dollar Days Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
